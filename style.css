@@ -1,13 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+nav{
+    background-color: rgba(255, 255, 255, 1);
+
+}
 .naxbox{
-    border: 2px solid tomato;
+    /* border: 2px solid tomato; */
     min-height: 50px;
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    align-items: center;    
+
 }
 .logologo{
-    border: 1px green;
+    /* border: 1px green; */
+    display: flex;
+    width: 50%;
 
 }
-
+.logologo img{
+    /* border: 1px solid red; */    
+    width: 120px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.logologo span{
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgba(38, 27, 68, 1);
+}
 .navitems{
-    border: 1px blue;
+    border: 10px blue;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 
+}
+.navitems a{
+    text-decoration: none;
+    font-size: 25px;
+}
+.follow-btn{
+    display: inline-flex;
+    align-items: center;
+    background-color: rgba(11, 2, 35, 0.1);
+    padding: 10px 20px;    
+}
+.follow-btn img{
+    margin-left: 10px;
+}
+.navitems img{
+    height: 20px;
+}
+
+
+/* BANNER DESIGN */
+.bannercontainer{
+    border: 1px tomato;
+    margin: 50px auto 0;
+    max-width: 1440px;
+    color: rgba(38, 27, 68, 1);
+    display: flex;
+}
+.bannertext{
+    width: 50%;
+    background-image: url(/assets/Group\ 14.png);
+    background-size: cover;
+    background-position: center;
+
+}
+.bannerimage{
+    width: 50%;
+
+}
+.bannertext p{
+    color: rgba(83, 76, 100, 1);
+    font-size: 30px;
+    text-align: left;
+    
+}
+.bannertext h2{
+    font-weight: 1300;
+    background-image: linear-gradient(to bottom,rgba(249, 72, 178, 1),rgba(135, 88, 241, 1));
+    color:transparent;
+    -webkit-background-clip: text;
+
+}
+.botam1{
+    background-color: rgb(255, 66, 165);
+    color: white;
+    width: 150px; 
+    height: 50px; 
+    font-size: 16px;
+    border-radius: 100px;
+}
+.botam2{
+    background-color: teal;
+    color: white;
+    width: 150px; 
+    height: 50px; 
+    font-size: 16px;
+    border-radius: 100px;
+}
+
+.teralogo img {
+    height: 0.7em; 
+    vertical-align: middle; 
+    margin-right: 15px; 
 }

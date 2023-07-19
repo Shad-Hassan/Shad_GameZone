@@ -1,0 +1,26 @@
+@media screen and (max-width:576px) {
+    nav{
+        font-size: smaller;
+    }
+    .naxbox{
+        flex-direction: column;
+        
+    }
+    .navitems{
+        flex-direction: column;
+        
+        
+    }
+    .navitems a{
+        flex-direction: row;
+    }
+
+
+    /* Banner responsive initiation */
+    .bannercontainer{
+        flex-direction: column;
+    }
+    .bannertext,.bannerimage{
+        
+    }
+}
