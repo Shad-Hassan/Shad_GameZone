@@ -151,7 +151,7 @@ span.teralogo img {
 
 /* PAGE 2 has started */
 .Script2{
-    border: 5px solid violet;
+    /* border: 5px solid violet; */
     margin: 0.2% 5% 0;
     display: flex;
 }
@@ -226,7 +226,7 @@ span.teralogo img {
 .image_flexy {
     display: flex;
     justify-content: center;
-    gap: 20px; /* Add spacing between .captor elements */
+    gap: 20px; 
   }
   
   .captor {
@@ -234,24 +234,24 @@ span.teralogo img {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    position: relative; /* Set the position to relative to allow positioning of box-shadow */
-    overflow: hidden; /* Prevents the box-shadow from overflowing */
+    position: relative; 
+    overflow: hidden; 
   }
   
   .image_flexy img {
     width: 90%;
-    transition: filter 0.3s ease; /* Add transition for image hover effect */
+    transition: filter 0.3s ease; 
   }
   
   .image_flexy p {
-    margin-top: 10px; /* Adds spacing between the image and paragraph */
+    margin-top: 10px; 
   }
   
   /* CSS for hover effects */
   .captor:hover img {
-    filter: brightness(70%); /* Darken the image during hover */
-    box-shadow: 0 0 0 10px rgb(200, 35, 200), /* Add border effect */
-                0 0 0 10px rgba(0, 0, 0, 0.5); /* Add transparent shadow to top side */
+    filter: brightness(70%); 
+    box-shadow: 0 0 0 10px rgb(200, 35, 200), 
+                0 0 0 10px rgba(0, 0, 0, 0.5); 
   }
   
   
