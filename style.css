@@ -64,7 +64,7 @@ nav{
 
 /* BANNER DESIGN */
 .bannercontainer{
-    border: 5px solid blueviolet;
+    /* border: 5px solid blueviolet; */
     margin: 3% 5% 0;
     max-width: 1440px;
     color: rgba(38, 27, 68, 1);
@@ -72,7 +72,7 @@ nav{
     
 }
 .bannertext{
-    border: 5px solid tomato;
+    /* border: 5px solid tomato; */
     width: 50%;    
     align-items: center;
     justify-content: center;
@@ -112,16 +112,16 @@ nav{
 .botam1{
     background-color: rgb(255, 66, 165);
     color: white;
-    width: 150px; 
-    height: 50px; 
+    width: 30%; 
+    height: 10%; 
     font-size: 16px;
     border-radius: 100px;
 }
 .botam2{
     background-color: teal;
     color: white;
-    width: 150px; 
-    height: 50px; 
+    width: 30%; 
+    height: 10%; 
     font-size: 16px;
     border-radius: 100px;
 }
