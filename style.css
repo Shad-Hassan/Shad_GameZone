@@ -69,10 +69,13 @@ nav{
     max-width: 1440px;
     color: rgba(38, 27, 68, 1);
     display: flex;
+    
 }
 .bannertext{
     width: 50%;
-    background-image: url(/assets/Group\ 14.png);
+    align-items: center;
+    justify-content: left;
+    background-image: url(assets/Group\ 14.png);
     background-size: cover;
     background-position: center;
 
