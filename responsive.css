@@ -4,15 +4,20 @@
     }
     .naxbox{
         flex-direction: column;
+        height: 100%;
         
     }
     .navitems{
         flex-direction: column;
+        justify-content:left;
+        
         
         
     }
     .navitems a{
         flex-direction: row;
+        font-size:100% ;
+        
     }
 
 
