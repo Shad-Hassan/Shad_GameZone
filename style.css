@@ -222,3 +222,37 @@ span.teralogo img {
     -webkit-background-clip: text;
 
 }
+/* HOVER ELA */
+.image_flexy {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Add spacing between .captor elements */
+  }
+  
+  .captor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative; /* Set the position to relative to allow positioning of box-shadow */
+    overflow: hidden; /* Prevents the box-shadow from overflowing */
+  }
+  
+  .image_flexy img {
+    width: 90%;
+    transition: filter 0.3s ease; /* Add transition for image hover effect */
+  }
+  
+  .image_flexy p {
+    margin-top: 10px; /* Adds spacing between the image and paragraph */
+  }
+  
+  /* CSS for hover effects */
+  .captor:hover img {
+    filter: brightness(70%); /* Darken the image during hover */
+    box-shadow: 0 0 0 10px rgb(200, 35, 200), /* Add border effect */
+                0 0 0 10px rgba(0, 0, 0, 0.5); /* Add transparent shadow to top side */
+  }
+  
+  
+  

@@ -72,4 +72,15 @@
     font-size:120%;
     }
     /* PAGE 3 STARTS !!! */
+    .image_flexy {
+        flex-direction: column; /* Change to single column for mobile view */
+        align-items: center; /* Align items to the center in the single column */
+      }
+    
+    .captor {
+        margin-bottom: 20px; /* Add spacing between .captor elements in mobile view */
+      }
 }
+
+
+    
