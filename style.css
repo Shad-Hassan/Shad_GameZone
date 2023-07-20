@@ -203,7 +203,7 @@ span.teralogo img {
 
 /* PAGE 3 STARTS !!! */
 .Script3{
-    border: 5px solid green;
+    /* border: 5px solid green; */
     margin: 0.2% 5% 0;
 }
 .Script3 h2,p{
@@ -254,5 +254,47 @@ span.teralogo img {
                 0 0 0 10px rgba(0, 0, 0, 0.5); 
   }
   
+  /* PAGE 4 HAS BEGUN!!! */
+.Script4{
+    border: 5px solid cyan;
+    margin: 0.2% 5% 0;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+    
+  }
   
+.Script4 h2{
+    font-weight: bolder;
+    font-size: 300%;
+    text-align: center;    
+    background-image: linear-gradient(to bottom,rgba(249, 72, 178, 1),rgba(135, 88, 241, 1));
+    color:transparent;
+    -webkit-background-clip: text;
+        
+  }
+.tex4{
+    justify-content: center;
+    align-items: center;
+}
+.Script4 h3{
+    font-weight: bolder;
+    font-size: 300%;
+    text-align: center;
+    color: rgba(11, 2, 35, 1);
+    
+  }
+.Script4 p{
+    color: rgba(83, 76, 100, 1);
+  }
+.img4{
+    
+    height: 80%;
+    width:80%;
+
+}
+ 
+
   

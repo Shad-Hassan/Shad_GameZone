@@ -80,6 +80,17 @@
     .captor {
         margin-bottom: 20px; 
       }
+      .Script4{
+        flex-direction: column;
+    }
+    .text4,{
+        height: 100%;
+        width: 100%;
+    }
+    .img4{
+        height: 40%;
+        width: 40%;
+    }
 }
 
 
